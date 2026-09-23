@@ -42,6 +42,8 @@ Three checkpoints, and a `Router` that picks between them per request:
 pip install laya
 ```
 
+For the optional HTTP API, install `laya[server]` and see the [API guide](docs/api.md).
+
 Python 3.10 or newer. The dependencies set that floor: `huggingface_hub` 1.x, `transformers` 5.x and `torch` 2.14 all require 3.10.
 
 ---
